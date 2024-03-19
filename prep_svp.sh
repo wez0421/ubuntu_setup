@@ -27,11 +27,11 @@ sudo make install
 cd ..
 
 # Cython for Python3. !!! Vapoursynth requires Cython >= 0.28 !!!
-sudo apt-get install cython3
+sudo apt-get install cython3 -y
 # OR
-pip3 install Cython
+pip3 install Cython -y
 #setup cython
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 pip3 install cython
 sudo echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
