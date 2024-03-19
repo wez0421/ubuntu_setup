@@ -71,5 +71,5 @@ echo --enable-libx264 >> ffmpeg_options
 echo --enable-vaapi >> ffmpeg_options
 echo -Dvapoursynth=enabled >> mpv_options
 echo -Dlibmpv=true >> mpv_options
-echo --enable-nvdec >> ffmpeg_options
+#echo --enable-nvdec >> ffmpeg_options
 ./rebuild -j4
