@@ -6,7 +6,7 @@ sudo apt-get update -y
 sudo apt-get install -y intel-opencl-icd #intel driver
 sudo apt-get install mediainfo -y
 sudo apt-get install libqt5concurrent5 libqt5svg5 libqt5qml5 -y
-sudo add-apt-repository ppa:rvm/smplayer
+sudo add-apt-repository ppa:rvm/smplayer -y
 sudo apt-get update
 sudo apt-get install smplayer smplayer-themes smplayer-skins -y
 sudo apt-get install g++ make autoconf automake libtool pkg-config mediainfo nasm git ffmpeg -y
