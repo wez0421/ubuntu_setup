@@ -59,10 +59,12 @@ sudo apt-get install python-is-python3 -y
 pip install meson
 pip install ninja
 #root pip install meson 
-sudo -i
+original_user=$(whoami)
+sudo -s <<EOF
 pip install meson
 pip install ninja
-exit
+EOF
+echo "Resuming back to Original User: $original_user"
 git clone https://github.com/mpv-player/mpv-build.git
 cd mpv-build
 ./use-ffmpeg-release
