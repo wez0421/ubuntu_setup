@@ -15,7 +15,7 @@ sudo tee -a /etc/samba/smb.conf > /dev/null <<EOT
 
 [Videos]
    comment = Share for Videos
-   path = /path/to/your/Videos/folder
+   path = ~/home/wes/Videos
    browseable = yes
    read only = no
    guest ok = yes
