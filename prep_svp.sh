@@ -53,7 +53,7 @@ sudo ln -s /usr/local/lib/python3.10/site-packages/vapoursynth.so /usr/lib/pytho
 
 # ensure everything is fine so far - run vspipe
 vspipe
-sudo apt-get install libssl-dev libfribidi-dev libharfbuzz-dev libluajit-5.1-dev libx264-dev xorg-dev libxpresent-dev libegl1-mesa-dev libfreetype-dev libfontconfig-dev libffmpeg-nvenc-dev libva-dev libdrm-dev libplacebo-dev
+sudo apt-get install libssl-dev libfribidi-dev libharfbuzz-dev libluajit-5.1-dev libx264-dev xorg-dev libxpresent-dev libegl1-mesa-dev libfreetype-dev libfontconfig-dev libffmpeg-nvenc-dev libva-dev libdrm-dev libplacebo-dev -y
 sudo apt-get install libasound2-dev libpulse-dev -y
 sudo apt-get install python-is-python3 -y
 pip install meson
